@@ -1,0 +1,25 @@
+- Fix UI tabs for Alarms, CountdownTimer and StopWatch
+- Create new theme in styles.xml
+- App icon
+- Alarm
+   - Make Alarm sound right on the 00;
+   - Dialog to remove alarms that are not recurring
+   - Create Alarm Service (Started Service)
+     - Resets recurring alarms correctly
+     - Triggers alarm in background service
+     - Alarms Utility class -> to determine and set the next alarm time for each alarm
+   - Animations
+     - Remove alarm from list
+     - Add alarm to list
+     - Trigger alarm
+     - Remove trigger alarm fragment
+   - Make CreateAlarm fragment partially slide up from bottom - Make animation for sliding fragment
+ - CountdownTimer
+   - Cancel button - Animate from timer back to edit text
+   - Create Start button - Animate from edit text to timer
+   - Create Recycler Adapter for multiple countdown timers at once
+   - Create Service for timer to work in background
+   - Create notification as well
+ - StopWatch
+ - Espresso
+   - Unit test for this in Espresso

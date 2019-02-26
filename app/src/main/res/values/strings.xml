@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Alarms</string>
+
+    <string name="create_alarm">Create</string>
+    <string name="create_alarm_time">11:00 PM</string>
+    <string name="today">Today</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="alarm_description_hint">Alarm Description</string>
+
+    <string name="list_day">Wednesday</string>
+
+    <string name="day_title">Days</string>
+
+    <string name="cancel_btn">Cancel</string>
+    <string name="ok_btn">Ok</string>
+
+    <string name="alarms_tab">ALARMS</string>
+    <string name="countdown_tab">COUNTDOWN</string>
+    <string name="stopwatch_tab">STOPWATCH</string>
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+
+    <string name="every_day">Every Day</string>
+    <string name="week_day">Week Day</string>
+    <string name="weekend_day">Weekend Day</string>
+
+    <string name="zero">0</string>
+    <string name="double_zero">00</string>
+
+    <string name="start">start</string>
+    <string name="resume">resume</string>
+    <string name="pause">pause</string>
+
+    <string name="done">DONE!!!</string>
+</resources>

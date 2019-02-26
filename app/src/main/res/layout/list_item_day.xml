@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_ticketing_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide_ticketing_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85"/>
+
+    <TextView
+        android:id="@+id/day_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="16dp" android:layout_marginTop="12dp"
+        android:text="@string/list_day" android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/day_checkbox"
+        android:layout_width="31dp" android:layout_height="27dp" android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp" android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_check_primary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@+id/guide_ticketing_right"
+        app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>
